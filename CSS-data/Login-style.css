@@ -92,6 +92,10 @@ input:focus {
     margin-left: auto;
 }
 
+.options .label-color:checked + label {
+    color: rgb(187, 40, 187);
+}
+
 button {
     background: #fff;
     color: black;
@@ -114,8 +118,7 @@ p {
     margin-top: 15px;
 }
 
-#register {
+.login-color {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: rgb(187, 40, 187);;
 }
